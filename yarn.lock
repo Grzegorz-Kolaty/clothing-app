@@ -218,7 +218,7 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/fire@18.0.1":
+"@angular/fire@^18.0.1":
   version "18.0.1"
   resolved "https://registry.yarnpkg.com/@angular/fire/-/fire-18.0.1.tgz#2e9cbc1383fd47137e9349707e1f6ba96a6b2335"
   integrity sha512-mmhh2e41CG2G9p+9vqA+lD8om97fe3GffPBIfBMDSZE+S3DAGlmwL2KXx/eLLUEPGT1dK6ssF+ZqQdX3PZwsRw==
