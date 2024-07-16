@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": "dist/clothing-app",
+    "ignore": [
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "predeploy": [
+      "yarn install && yarn build"
+    ],
+    "frameworksBackend": {
+      "region": "europe-west1"
+    }
+  }
+}
