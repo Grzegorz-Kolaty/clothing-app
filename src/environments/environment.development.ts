@@ -1,13 +1,13 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: 'AIzaSyCWtnxSrDBlX_wUCd_emiXZNaQbEvL4QQY',
-    authDomain: 'clothing-shop-7156b.firebaseapp.com',
-    projectId: 'clothing-shop-7156b',
-    storageBucket: 'clothing-shop-7156b.appspot.com',
-    messagingSenderId: '980740422553',
-    appId: '1:980740422553:web:1c9074742e6247017b7108',
-    measurementId: 'G-H1GWKL8MJ0'
+    apiKey: "AIzaSyCwQ6v9_n0nUZPyMeBEKU2KbrfYN3LMcUw",
+    authDomain: "clothing-app-9c88a.firebaseapp.com",
+    projectId: "clothing-app-9c88a",
+    storageBucket: "clothing-app-9c88a.appspot.com",
+    messagingSenderId: "338474866441",
+    appId: "1:338474866441:web:9492d90ddbfbef8f1a25d8",
+    measurementId: "G-D4Z20FGB2C"
   },
   backendUrl: 'http://localhost:3000'
 };
