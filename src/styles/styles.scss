@@ -1,0 +1,20 @@
+@import 'bootstrap';
+@import 'bootstrap-icons';
+@import 'spacings';
+
+body {
+  --bs-body-font-family: 'Poppins', sans-serif;
+  //min-height: 100vh;
+}
+
+app-root {
+  display: grid;
+  height: 100%;
+  min-height: 100vh;
+  grid-template-rows: auto 3fr auto;
+}
+
+main {
+  display: flex;
+  flex-flow: row nowrap;
+}

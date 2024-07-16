@@ -1,0 +1,11 @@
+fa-icon {
+  color: gray;
+
+  &.rated,
+  &:hover,
+  &:hover ~ fa-icon {
+    color: orange;
+  }
+
+  transition: color 150ms ease-in-out;
+}

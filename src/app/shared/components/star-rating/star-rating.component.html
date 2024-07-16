@@ -1,0 +1,14 @@
+<div class="d-flex flex-row-reverse">
+  @for (
+    rating of starRatingValues;
+    track rating;
+    let i = $index;
+    let c = $count
+  ) {
+    <fa-icon
+      (click)="setRating(c - i)"
+      [class.rated]="starRating >= c - i"
+      [icon]="faStar"
+    ></fa-icon>
+  }
+</div>

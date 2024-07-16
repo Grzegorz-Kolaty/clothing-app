@@ -1,0 +1,10 @@
+<div class="col gap-1">
+  <img [src]="product.image" alt="product thumbnail" />
+  <h2 class="title">{{ product.name }}</h2>
+
+  <div class="row flex-nowrap">
+    <span>Price: </span><span>{{ product.price }}</span>
+  </div>
+  <app-star-rating [starRating]="product.rating"></app-star-rating>
+  <span>rating: {{ product.rating }}</span>
+</div>
